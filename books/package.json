@@ -5,13 +5,14 @@
   "main": "books.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon book.js"
+    "dev": "nodemon book.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "mongoose": "^7.3.0"
   },
